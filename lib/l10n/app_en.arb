@@ -1,0 +1,704 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Rent Book",
+  "@appTitle": {
+    "description": "Application name shown as the window/task title and on the home app bar"
+  },
+
+  "commonCancel": "Cancel",
+  "@commonCancel": {
+    "description": "Label of the cancel button in dialogs"
+  },
+  "commonSave": "Save",
+  "@commonSave": {
+    "description": "Label of the save button"
+  },
+  "commonDelete": "Delete",
+  "@commonDelete": {
+    "description": "Label of the delete button and tooltip of the delete icon"
+  },
+  "commonEdit": "Edit",
+  "@commonEdit": {
+    "description": "Tooltip of the edit icon"
+  },
+  "commonPaid": "Received",
+  "@commonPaid": {
+    "description": "Status label for a bill that has been paid"
+  },
+  "commonUnpaid": "Unpaid",
+  "@commonUnpaid": {
+    "description": "Status label for a bill that has not been paid"
+  },
+  "commonTenantDeleted": "(Tenant deleted)",
+  "@commonTenantDeleted": {
+    "description": "Placeholder shown when the tenant of a bill no longer exists"
+  },
+  "commonReceivedAmount": "Received {amount}",
+  "@commonReceivedAmount": {
+    "description": "Received amount shown in list headers",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1,234.50"
+      }
+    }
+  },
+  "commonUnpaidAmount": "Unpaid {amount}",
+  "@commonUnpaidAmount": {
+    "description": "Outstanding amount shown in statistics",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1,234.50"
+      }
+    }
+  },
+
+  "passwordShowTooltip": "Show password",
+  "@passwordShowTooltip": {
+    "description": "Tooltip of the visibility icon when the password is hidden"
+  },
+  "passwordHideTooltip": "Hide password",
+  "@passwordHideTooltip": {
+    "description": "Tooltip of the visibility icon when the password is visible"
+  },
+  "passwordMinLengthError": "At least {count} characters",
+  "@passwordMinLengthError": {
+    "description": "Validation error when the password is too short",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "passwordMismatch": "The passwords do not match",
+  "@passwordMismatch": {
+    "description": "Snack bar shown when the two password entries differ"
+  },
+
+  "feeRent": "Rent",
+  "@feeRent": {
+    "description": "Fee label for the monthly rent"
+  },
+  "feeProperty": "Property fee",
+  "@feeProperty": {
+    "description": "Fee label for the monthly property management fee"
+  },
+  "feeWater": "Water",
+  "@feeWater": {
+    "description": "Fee label for the water charge"
+  },
+  "feeElectricity": "Electricity",
+  "@feeElectricity": {
+    "description": "Fee label for the electricity charge"
+  },
+  "feeGas": "Gas",
+  "@feeGas": {
+    "description": "Fee label for the gas charge"
+  },
+  "billFeeSummary": "Rent {rent} · Property fee {propertyFee} · Utilities {utilities}",
+  "@billFeeSummary": {
+    "description": "Compact fee breakdown shown in bill lists",
+    "placeholders": {
+      "rent": {
+        "type": "String",
+        "example": "1,500"
+      },
+      "propertyFee": {
+        "type": "String",
+        "example": "200"
+      },
+      "utilities": {
+        "type": "String",
+        "example": "204.05"
+      }
+    }
+  },
+
+  "lockViewTitle": "Rent Book is locked",
+  "@lockViewTitle": {
+    "description": "Title of the unlock screen"
+  },
+  "lockViewPasswordLabel": "Enter startup password",
+  "@lockViewPasswordLabel": {
+    "description": "Label of the password field on the unlock screen"
+  },
+  "lockViewPasswordRequired": "Please enter the password",
+  "@lockViewPasswordRequired": {
+    "description": "Validation error when the password field is empty on the unlock screen"
+  },
+  "lockViewVerifying": "Verifying…",
+  "@lockViewVerifying": {
+    "description": "Label of the unlock button while the password is being verified"
+  },
+  "lockViewUnlock": "Unlock",
+  "@lockViewUnlock": {
+    "description": "Label of the unlock button"
+  },
+  "lockViewForgotPassword": "Forgot password?",
+  "@lockViewForgotPassword": {
+    "description": "Link label to start the password reset flow"
+  },
+  "lockViewWrongPassword": "Wrong password, please try again",
+  "@lockViewWrongPassword": {
+    "description": "Snack bar shown after a failed unlock attempt"
+  },
+
+  "setPasswordTitle": "Set a startup password",
+  "@setPasswordTitle": {
+    "description": "Title of the first-run password setup screen"
+  },
+  "setPasswordSubtitle": "Protects your rent records; you will need to enter it next time",
+  "@setPasswordSubtitle": {
+    "description": "Subtitle of the first-run password setup screen"
+  },
+  "setPasswordFieldLabel": "Set a password (at least {count} characters)",
+  "@setPasswordFieldLabel": {
+    "description": "Label of the first password field on the setup screen",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "setPasswordConfirmLabel": "Enter it again to confirm",
+  "@setPasswordConfirmLabel": {
+    "description": "Label of the confirmation password field on the setup screen"
+  },
+  "setPasswordSubmit": "Finish setup",
+  "@setPasswordSubmit": {
+    "description": "Label of the submit button on the password setup screen"
+  },
+
+  "changePasswordTitle": "Change startup password",
+  "@changePasswordTitle": {
+    "description": "Title of the change-password screen and of its entry in the home menu"
+  },
+  "changePasswordOldLabel": "Current password",
+  "@changePasswordOldLabel": {
+    "description": "Label of the current password field"
+  },
+  "changePasswordOldRequired": "Please enter the current password",
+  "@changePasswordOldRequired": {
+    "description": "Validation error when the current password field is empty"
+  },
+  "changePasswordNewLabel": "New password (at least {count} characters)",
+  "@changePasswordNewLabel": {
+    "description": "Label of the new password field",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "changePasswordConfirmLabel": "Enter the new password again",
+  "@changePasswordConfirmLabel": {
+    "description": "Label of the new password confirmation field"
+  },
+  "changePasswordMismatch": "The new passwords do not match",
+  "@changePasswordMismatch": {
+    "description": "Validation error when the two new password entries differ"
+  },
+  "changePasswordOldIncorrect": "The current password is incorrect",
+  "@changePasswordOldIncorrect": {
+    "description": "Snack bar shown when the current password is wrong"
+  },
+  "changePasswordSameAsOld": "The new password must differ from the current one",
+  "@changePasswordSameAsOld": {
+    "description": "Snack bar shown when the new password equals the current one"
+  },
+  "changePasswordSuccess": "Startup password updated ✓",
+  "@changePasswordSuccess": {
+    "description": "Snack bar shown after the password was changed successfully"
+  },
+  "changePasswordSubmit": "Confirm change",
+  "@changePasswordSubmit": {
+    "description": "Label of the submit button on the change-password screen"
+  },
+  "changePasswordHint": "Note: the new password must differ from the current one, and both entries must match.",
+  "@changePasswordHint": {
+    "description": "Hint text shown below the change-password form"
+  },
+
+  "passwordGateResetMessage": "This will erase the startup password and all tenant and bill data, and the app will return to its first-run state. This cannot be undone.",
+  "@passwordGateResetMessage": {
+    "description": "Body of the confirmation dialog for forgetting the password"
+  },
+  "passwordGateResetConfirm": "Erase and start over",
+  "@passwordGateResetConfirm": {
+    "description": "Label of the destructive button in the forget-password dialog"
+  },
+
+  "homeMoreTooltip": "More",
+  "@homeMoreTooltip": {
+    "description": "Tooltip of the overflow menu button on the home screen"
+  },
+  "homeAddBill": "Add a bill",
+  "@homeAddBill": {
+    "description": "Label of the floating action button on the home screen"
+  },
+  "homeEmptyTenants": "No tenants yet — add one first",
+  "@homeEmptyTenants": {
+    "description": "Empty state message when no tenant exists"
+  },
+  "homeAddTenant": "Add tenant",
+  "@homeAddTenant": {
+    "description": "Label of the button that opens the tenant management screen from the empty state"
+  },
+  "homePreviousMonth": "Previous month",
+  "@homePreviousMonth": {
+    "description": "Tooltip of the button that goes to the previous month"
+  },
+  "homeNextMonth": "Next month",
+  "@homeNextMonth": {
+    "description": "Tooltip of the button that goes to the next month"
+  },
+  "homeBackToThisMonth": "Back to this month",
+  "@homeBackToThisMonth": {
+    "description": "Label of the button that jumps back to the current month"
+  },
+  "homeMonthlyReceivable": "Total due this month",
+  "@homeMonthlyReceivable": {
+    "description": "Label of the total amount due in the monthly summary card"
+  },
+  "homeCollectionSummary": "{paid}/{recorded} received · {total} tenants",
+  "@homeCollectionSummary": {
+    "description": "Collection progress shown in the monthly summary card",
+    "placeholders": {
+      "paid": {
+        "type": "int",
+        "example": "1"
+      },
+      "recorded": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "homeNotRecorded": "Not recorded · fixed rent {rent} + property fee {propertyFee}",
+  "@homeNotRecorded": {
+    "description": "Subtitle of a tenant card for a month without a bill",
+    "placeholders": {
+      "rent": {
+        "type": "String",
+        "example": "1,500"
+      },
+      "propertyFee": {
+        "type": "String",
+        "example": "200"
+      }
+    }
+  },
+  "homePending": "Not recorded",
+  "@homePending": {
+    "description": "Amount placeholder of a tenant card for a month without a bill"
+  },
+  "homeAddTenantFirst": "Please add a tenant first",
+  "@homeAddTenantFirst": {
+    "description": "Snack bar shown when adding a bill without any tenant"
+  },
+  "homePickTenantTitle": "Choose a tenant",
+  "@homePickTenantTitle": {
+    "description": "Title of the bottom sheet that asks which tenant the bill belongs to"
+  },
+
+  "historyTitle": "History",
+  "@historyTitle": {
+    "description": "Title of the history screen"
+  },
+  "historyEmpty": "No bills yet",
+  "@historyEmpty": {
+    "description": "Empty state message of the history screen"
+  },
+  "historyMonthTotal": "Total {amount}",
+  "@historyMonthTotal": {
+    "description": "Total amount of one month group in the history list",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1,904.05"
+      }
+    }
+  },
+  "historyPaidSuffix": " · Paid ✓",
+  "@historyPaidSuffix": {
+    "description": "Suffix appended to the tenant title in the history list when the bill is paid"
+  },
+
+  "statsTitle": "Statistics",
+  "@statsTitle": {
+    "description": "Title of the statistics screen"
+  },
+  "statsEmpty": "No bills yet — add one first",
+  "@statsEmpty": {
+    "description": "Empty state message of the statistics screen"
+  },
+  "statsSummaryTitle": "Total due / received",
+  "@statsSummaryTitle": {
+    "description": "Title of the accumulated summary card"
+  },
+  "statsReceivable": "Due",
+  "@statsReceivable": {
+    "description": "Label of the total amount that is due"
+  },
+  "statsCollectionRate": "Collection rate {rate}%",
+  "@statsCollectionRate": {
+    "description": "Collection rate shown below the progress bar",
+    "placeholders": {
+      "rate": {
+        "type": "String",
+        "example": "66.7"
+      }
+    }
+  },
+  "statsMonthlyTrendTitle": "Due over the last 12 months",
+  "@statsMonthlyTrendTitle": {
+    "description": "Title of the 12-month bar chart card"
+  },
+  "statsChartTooltip": "Received {paid}\nUnpaid {unpaid}",
+  "@statsChartTooltip": {
+    "description": "Tooltip of a bar in the 12-month chart",
+    "placeholders": {
+      "paid": {
+        "type": "String",
+        "example": "1,500"
+      },
+      "unpaid": {
+        "type": "String",
+        "example": "404.05"
+      }
+    }
+  },
+  "statsCategoryTitle": "Fee breakdown",
+  "@statsCategoryTitle": {
+    "description": "Title of the fee category pie chart card"
+  },
+  "statsCategoryEmpty": "Fee breakdown (no data)",
+  "@statsCategoryEmpty": {
+    "description": "Fee category card title when there is nothing to show"
+  },
+  "statsTenantRankingTitle": "Total due by tenant",
+  "@statsTenantRankingTitle": {
+    "description": "Title of the per-tenant ranking card"
+  },
+  "statsTenantRankingEmpty": "Total due by tenant (no data)",
+  "@statsTenantRankingEmpty": {
+    "description": "Per-tenant ranking card title when there is nothing to show"
+  },
+
+  "tenantsTitle": "Tenants",
+  "@tenantsTitle": {
+    "description": "Title of the tenant management screen"
+  },
+  "tenantsAdd": "Add tenant",
+  "@tenantsAdd": {
+    "description": "Label of the add-tenant button and title of the add-tenant dialog"
+  },
+  "tenantsEmpty": "No tenants — tap the button below to add one",
+  "@tenantsEmpty": {
+    "description": "Empty state message of the tenant management screen"
+  },
+  "tenantsFeeSummary": "Rent {rent} / month · Property fee {propertyFee} / month",
+  "@tenantsFeeSummary": {
+    "description": "Fixed monthly fees shown in a tenant list tile",
+    "placeholders": {
+      "rent": {
+        "type": "String",
+        "example": "1,500"
+      },
+      "propertyFee": {
+        "type": "String",
+        "example": "200"
+      }
+    }
+  },
+  "tenantsDeleteTitle": "Delete tenant",
+  "@tenantsDeleteTitle": {
+    "description": "Title of the delete-tenant confirmation dialog"
+  },
+  "tenantsDeleteWithBillsMessage": "This will also delete {count, plural, =1{1 bill record} other{{count} bill records}} for {room} {name}. Continue?",
+  "@tenantsDeleteWithBillsMessage": {
+    "description": "Body of the delete-tenant dialog when the tenant still has bills",
+    "placeholders": {
+      "room": {
+        "type": "String",
+        "example": "101"
+      },
+      "name": {
+        "type": "String",
+        "example": "John"
+      },
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "tenantsDeleteMessage": "Delete {room} {name}?",
+  "@tenantsDeleteMessage": {
+    "description": "Body of the delete-tenant dialog when the tenant has no bills",
+    "placeholders": {
+      "room": {
+        "type": "String",
+        "example": "101"
+      },
+      "name": {
+        "type": "String",
+        "example": "John"
+      }
+    }
+  },
+  "tenantsDeleted": "Deleted {room} {name}",
+  "@tenantsDeleted": {
+    "description": "Snack bar shown after a tenant was deleted",
+    "placeholders": {
+      "room": {
+        "type": "String",
+        "example": "101"
+      },
+      "name": {
+        "type": "String",
+        "example": "John"
+      }
+    }
+  },
+  "tenantsDeletedWithBillsSuffix": " and {count} bill records",
+  "@tenantsDeletedWithBillsSuffix": {
+    "description": "Suffix appended to the delete confirmation when bills were removed too",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "tenantsAdded": "Added {room} {name}",
+  "@tenantsAdded": {
+    "description": "Snack bar shown after a tenant was created",
+    "placeholders": {
+      "room": {
+        "type": "String",
+        "example": "101"
+      },
+      "name": {
+        "type": "String",
+        "example": "John"
+      }
+    }
+  },
+  "tenantsUpdated": "Saved changes to {room} {name}",
+  "@tenantsUpdated": {
+    "description": "Snack bar shown after a tenant was edited",
+    "placeholders": {
+      "room": {
+        "type": "String",
+        "example": "101"
+      },
+      "name": {
+        "type": "String",
+        "example": "John"
+      }
+    }
+  },
+  "tenantsEditTitle": "Edit tenant",
+  "@tenantsEditTitle": {
+    "description": "Title of the edit-tenant dialog"
+  },
+  "tenantsRoomLabel": "Room number (e.g. 301)",
+  "@tenantsRoomLabel": {
+    "description": "Label of the room number field"
+  },
+  "tenantsRoomRequired": "Please enter the room number",
+  "@tenantsRoomRequired": {
+    "description": "Validation error when the room number is empty"
+  },
+  "tenantsNameLabel": "Tenant name (required)",
+  "@tenantsNameLabel": {
+    "description": "Label of the tenant name field"
+  },
+  "tenantsNameRequired": "Please enter the tenant name",
+  "@tenantsNameRequired": {
+    "description": "Validation error when the tenant name is empty"
+  },
+  "tenantsRentLabel": "Fixed monthly rent (yuan)",
+  "@tenantsRentLabel": {
+    "description": "Label of the fixed monthly rent field"
+  },
+  "tenantsPropertyLabel": "Monthly property fee (yuan)",
+  "@tenantsPropertyLabel": {
+    "description": "Label of the monthly property fee field"
+  },
+
+  "billEditTotalLabel": "Total due",
+  "@billEditTotalLabel": {
+    "description": "Label of the total amount card on the bill edit screen"
+  },
+  "billEditPaidSwitch": "Payment received",
+  "@billEditPaidSwitch": {
+    "description": "Title of the paid switch on the bill edit screen"
+  },
+  "billEditNoteLabel": "Note (optional, shown on the bill image)",
+  "@billEditNoteLabel": {
+    "description": "Label of the note field on the bill edit screen"
+  },
+  "billEditNoteHint": "e.g. Please transfer to my WeChat / see Moments for the payment QR code",
+  "@billEditNoteHint": {
+    "description": "Hint text of the note field on the bill edit screen"
+  },
+  "billEditHint": "Note: fixed charges are pre-filled from last month and can be edited.",
+  "@billEditHint": {
+    "description": "Hint text at the bottom of the bill edit screen"
+  },
+  "billEditMoneyFieldLabel": "{label} (yuan)",
+  "@billEditMoneyFieldLabel": {
+    "description": "Label of a money input field, where the label is a fee name",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "Rent"
+      }
+    }
+  },
+  "billEditSaveAndShare": "Save & share image",
+  "@billEditSaveAndShare": {
+    "description": "Label of the button that saves the bill and opens the share screen"
+  },
+  "billEditDelete": "Delete bill",
+  "@billEditDelete": {
+    "description": "Tooltip of the delete icon and title of the delete-bill dialog"
+  },
+  "billEditDeleteMessage": "Delete this month's bill?",
+  "@billEditDeleteMessage": {
+    "description": "Body of the delete-bill confirmation dialog"
+  },
+
+  "billShareViewTitle": "Bill image",
+  "@billShareViewTitle": {
+    "description": "Title of the bill share screen"
+  },
+  "billShareEditTooltip": "Edit bill",
+  "@billShareEditTooltip": {
+    "description": "Tooltip of the edit icon on the bill share screen"
+  },
+  "billShareSubmit": "Generate image & send to tenant (WeChat)",
+  "@billShareSubmit": {
+    "description": "Label of the share button on the bill share screen"
+  },
+  "billShareGenerating": "Generating image…",
+  "@billShareGenerating": {
+    "description": "Label of the share button while the image is being generated"
+  },
+  "billShareFailed": "Share failed: {error}",
+  "@billShareFailed": {
+    "description": "Snack bar shown when sharing the bill image failed",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "File write failed"
+      }
+    }
+  },
+  "billShareTitle": "{room} rent bill",
+  "@billShareTitle": {
+    "description": "Title of the shared bill payload",
+    "placeholders": {
+      "room": {
+        "type": "String",
+        "example": "101"
+      }
+    }
+  },
+  "billShareText": "{room} {name} {month} bill: total {total}. See the image for details.",
+  "@billShareText": {
+    "description": "Text of the shared bill payload",
+    "placeholders": {
+      "room": {
+        "type": "String",
+        "example": "101"
+      },
+      "name": {
+        "type": "String",
+        "example": "John"
+      },
+      "month": {
+        "type": "String",
+        "example": "September 2026"
+      },
+      "total": {
+        "type": "String",
+        "example": "1,904.05"
+      }
+    }
+  },
+  "billShareFilePrefix": "rent-bill",
+  "@billShareFilePrefix": {
+    "description": "Prefix of the generated bill image file name"
+  },
+
+  "billCardTitle": "Rent bill",
+  "@billCardTitle": {
+    "description": "Title printed on the exported bill card image"
+  },
+  "billCardTenantLabel": "Tenant",
+  "@billCardTenantLabel": {
+    "description": "Label of the tenant row on the exported bill card image"
+  },
+  "billCardTotalLabel": "Total due",
+  "@billCardTotalLabel": {
+    "description": "Label of the total row on the exported bill card image"
+  },
+  "billCardNote": "Note: {note}",
+  "@billCardNote": {
+    "description": "Note line on the exported bill card image",
+    "placeholders": {
+      "note": {
+        "type": "String",
+        "example": "Please transfer via WeChat"
+      }
+    }
+  },
+  "billCardIssuedOn": "Issued on: {date}",
+  "@billCardIssuedOn": {
+    "description": "Issue date line on the exported bill card image",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2026-09-01"
+      }
+    }
+  },
+
+  "errorDataNotFound": "Data not found",
+  "@errorDataNotFound": {
+    "description": "Title of the fallback screen when route data is missing"
+  },
+  "errorTenantOrBillNotFound": "The tenant or bill could not be found",
+  "@errorTenantOrBillNotFound": {
+    "description": "Body of the fallback screen when route data is missing"
+  },
+
+  "homeLanguage": "Language",
+  "@homeLanguage": {
+    "description": "Entry of the language picker in the home overflow menu and its dialog title"
+  },
+  "homeCurrency": "Currency",
+  "@homeCurrency": {
+    "description": "Entry of the currency picker in the home overflow menu and its dialog title"
+  },
+  "languageSystem": "Follow system",
+  "@languageSystem": {
+    "description": "Option that restores following the system language"
+  },
+  "currencyAuto": "Auto (follow language)",
+  "@currencyAuto": {
+    "description": "Option that restores deriving the currency from the app language"
+  }
+}
