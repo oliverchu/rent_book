@@ -1,0 +1,10 @@
+# 复制为 android/key.properties 后填入真实值（该文件已在 .gitignore 中，切勿提交）。
+#
+# 生成签名文件（在 android/app/ 目录下执行）：
+#   keytool -genkey -v -keystore upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+# storeFile 相对于 android/app/ 解析；也可填写绝对路径。
+storePassword=你的密钥库口令
+keyPassword=你的密钥口令
+keyAlias=upload
+storeFile=upload-keystore.jks

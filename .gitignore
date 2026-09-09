@@ -1,0 +1,46 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.flutter-plugins-dependencies
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android 签名文件（本地私密，切勿提交）
+/android/key.properties
+*.jks
+*.keystore
+
+# 忽略主目录下所有以 . 开头的文件夹（IDE / 本地工具配置，不提交）
+.*/
+# 例外：GitHub Actions 配置需要提交
+!.github/
+# 如需把 VS Code 配置纳入版本控制，取消下一行注释
+#!.vscode/
+
+# AI 技能副本（不以 . 开头，一并忽略）
+agent/
+skills-lock.json
